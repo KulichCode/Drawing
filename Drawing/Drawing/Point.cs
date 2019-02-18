@@ -44,7 +44,6 @@ namespace Drawing
         /// <param name="pen"></param>
         public void Draw(Graphics graphics, Pen pen)
         {
-            //graphics.DrawLine(pen, X, Y, X + 1, Y + 1);
             graphics.DrawRectangle(pen, X, Y, 1, 1);
         }
     }

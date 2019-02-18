@@ -71,9 +71,9 @@ namespace Drawing
                     }
                     break;
                 case 2:
-                    if (points.Count == 4)
+                    if (points.Count == 2)
                     {
-                        new Rectangle(points[0], points[1], points[2], points[3]).Draw(graphics, pen);
+                        new Rectangle(points[0], points[1]).Draw(graphics, pen);
                         points.Clear();
                     }
                     break;

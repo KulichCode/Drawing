@@ -44,6 +44,8 @@
             // 
             // canvas
             // 
+            this.canvas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.canvas.BackColor = System.Drawing.Color.White;
             this.canvas.Location = new System.Drawing.Point(-1, 1);
             this.canvas.Name = "canvas";
@@ -55,7 +57,7 @@
             // 
             // pointB
             // 
-            this.pointB.Location = new System.Drawing.Point(990, 1);
+            this.pointB.Location = new System.Drawing.Point(990, 2);
             this.pointB.Name = "pointB";
             this.pointB.Size = new System.Drawing.Size(148, 57);
             this.pointB.TabIndex = 1;
@@ -65,7 +67,7 @@
             // 
             // lineB
             // 
-            this.lineB.Location = new System.Drawing.Point(990, 64);
+            this.lineB.Location = new System.Drawing.Point(990, 65);
             this.lineB.Name = "lineB";
             this.lineB.Size = new System.Drawing.Size(148, 57);
             this.lineB.TabIndex = 2;
@@ -158,8 +160,10 @@
             this.Controls.Add(this.lineB);
             this.Controls.Add(this.pointB);
             this.Controls.Add(this.canvas);
+            this.MaximumSize = new System.Drawing.Size(1158, 562);
+            this.MinimumSize = new System.Drawing.Size(1158, 562);
             this.Name = "Form1";
-            this.Text = "MS Paint -4.20";
+            this.Text = "Drawing";
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).EndInit();
             this.ResumeLayout(false);
 
