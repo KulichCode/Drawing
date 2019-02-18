@@ -1,0 +1,10 @@
+C:\Users\Ondřej\Desktop\Drawing\Drawing\bin\Debug\Drawing.exe.config
+C:\Users\Ondřej\Desktop\Drawing\Drawing\bin\Debug\Drawing.exe
+C:\Users\Ondřej\Desktop\Drawing\Drawing\bin\Debug\Drawing.pdb
+C:\Users\Ondřej\Desktop\Drawing\Drawing\obj\Debug\Drawing.csprojAssemblyReference.cache
+C:\Users\Ondřej\Desktop\Drawing\Drawing\obj\Debug\Drawing.Form1.resources
+C:\Users\Ondřej\Desktop\Drawing\Drawing\obj\Debug\Drawing.Properties.Resources.resources
+C:\Users\Ondřej\Desktop\Drawing\Drawing\obj\Debug\Drawing.csproj.GenerateResource.cache
+C:\Users\Ondřej\Desktop\Drawing\Drawing\obj\Debug\Drawing.csproj.CoreCompileInputs.cache
+C:\Users\Ondřej\Desktop\Drawing\Drawing\obj\Debug\Drawing.exe
+C:\Users\Ondřej\Desktop\Drawing\Drawing\obj\Debug\Drawing.pdb
