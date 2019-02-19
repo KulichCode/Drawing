@@ -76,10 +76,16 @@ namespace Drawing
         }
         private void Translate()
         {
-            Width = Math.Abs(Width);
-            A.X -= Width;
-            Height = Math.Abs(Height);
-            A.Y -= Height;
+            if (Width < 0)
+            {
+                Width = Math.Abs(Width);
+                A.X -= Width;
+            }
+            if (Height < 0)
+            {
+                Height = Math.Abs(Height);
+                A.Y -= Height;
+            }
         }
 
         /// <summary>
